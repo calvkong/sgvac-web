@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>SGVAC</title>
+		<link rel="icon" href="images/favicon.png">
+		<!-- Loading third party fonts -->
+		<link href="fonts/novecento-font/novecento-font.css" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+	</head>
+
+
+	<body>
+		<div class="site-content">
+			<header class="site-header">
+				<div class="container">
+					<a href="#" class="branding">
+						<img src="images/logo2.jpg" alt="" class="logo">
+						<h1 class="slide-subtitle">San Gabriel Valley Alliance Church</h1>
+						<h1 class="site-title">羅省東區宣道會</h1>
+						
+					</a>
+
+					<div class="main-navigation">
+						<button class="menu-toggle"><i class="fa fa-bars"></i> Menu</button>
+						<ul class="menu">
+							<li class="menu-item"><a href="CH_index.html" >中文網站 <small> . </small></a></li>
+							<li class="menu-item"><a href="EN_index.html">Pastor's<br/>Welcome <small>.</small></a></li>
+							<li class="menu-item"><a href="EN_SundayService.html">Sunday<br/>Service <small>.</small></a></li>
+							<li class="menu-item"><a href="EN_SundaySchool.html">Sunday<br/>School <small>.</small></a></li>
+							<li class="menu-item"><a href="EN_Fellowship.html">Fellowships <small>.</small></a></li>
+							<li class="menu-item"><a href="EN_ChildrenMinistry.html">Children<br/>Ministry <small>.</small></a></li>
+							<li class="menu-item"><a href="EN_MissionMinistry.html">Mission<br/>Ministry <small>.</small></a></li>
+							<li class="menu-item"><a href="EN_Staffs.html">Pastoral<br/>Staffs <small>.</small></a></li>
+							<li class="menu-item current-menu-item"><a href="#">Sermons <small>.</small></a></li>
+							<li class="menu-item"><a href="EN_Events.html">Events <small>.</small></a></li>
+						</ul>
+					</div>
+
+					<div class="mobile-navigation"></div>
+				</div>
+			</header> <!-- .site-header -->
+			<div class="page-head" data-bg-image="images/page-head-1.jpg">
+				<div class="container">
+					<h1 class="slide-title">【Pray First】</h1>
+					<h2 class="page-subtitle">( Mark 1:35 )</h2>
+				</div>
+			</div>
+			<div class="hero">
+			<!--	<div class="slides">
+					<li data-bg-image="images/page-head-1.jpg">
+						<div class="container">
+							<div class="slide-content">
+								<h2 class="slide-title">【先禱告】</h2>
+								<small class="slide-subtitle">( 馬可福音1:35 )</small>
+
+								<a href="#" class="button">See our families</a>
+							</div>
+						</div>
+					</li>
+
+					<li data-bg-image="images/page-head-1.jpg">
+						<div class="container">
+							<div class="slide-content">
+								<h2 class="slide-title">【Pray First】</h2>
+								<small class="slide-subtitle">( Mark 1:35 )</small>
+
+								<a href="#" class="button">See our families</a>
+							</div>
+						</div>
+					</li>
+				</div>-->
+			</div>
+
+						<main class="main-content">
+				<div class="fullwidth-block">
+					<div class="container">
+						<h1 id="Page_Title" class="slide-subtitle" align="middle">Sermons</h1>
+							<div class="c_head title_red">
+								<div class="clear_float"></div>
+							</div>
+							<div class="c_content">
+								<div id="dnn_ctr406_ModuleContent" align="center" type='text'>
+								<select id="MySelect" style="font-family: Arial;" onchange='searchTable()'>
+									  <option value="All" >All</option>
+								</select>
+								<input type="text" id="myInput" placeholder="Type to search"  onkeyup='searchTable()' onchange='searchTable()' >
+								<select id="MySpeakerSelect" style="font-family: Arial;" onchange='preselectYear();searchTable()'>
+									<option value="-      講員      -"  selected="selected">   - Speaker -   </option>
+								</select>
+								<input type="text" id="myRecordFound" style="font-family: Arial;"  disabled="true">
+								<br/><br/>
+								<div style="overflow-x:auto;">
+								<table  id="myTable" cellspacing="5" cellpadding="5" border="2" align="center" style="width: 600px; height: 151px;">
+		<tr style="background-color:#cacdd3; color=#808080">
+            <th class="info1"><font color="white">Date</font></th>
+            <th class="info1"><font color="white">Title</font></th>
+            <th class="info1"><font color="white">Bible Verse</font></th>
+            <th class="info1" width="90"><font color="white">Speaker</font></th>
+            <th class="info1" width="60"><font color="white">Bulletin</font></th>
+        </tr>
+		<!-- {%Insert_Token_Latest_Sermon_Detail%} -->
+		<!--
+https://s3-us-west-1.amazonaws.com/sgvac-media/en/audio/sermon/2017/english-sermon-20170409.mp3
+		-->
+        <tr>
+            <td class="info1"><span style="font-family: Arial;">04/09/2017</span></td>
+            <td class="info1"><a onclick="window.open(this.href,'archive','resizable=yes,location=no,menubar=no,scrollbars=no,status=no,toolbar=no,fullscreen=no,dependent=no,status,width=300,height=200'); return false" href="https://s3-us-west-1.amazonaws.com/sgvac-media/en/audio/sermon/2017/english-sermon-20170409.mp3"><span style="font-size: medium;">Real News, Fake News and Good News</span><img src="images/play.png" align="right"></a></td>
+            <td class="info1">Mark 11:1-11</td>
+            <td class="info1">Elder Daniel Wong</td>
+            <td class="info1"></i></td>
+        </tr>
+		        <tr>
+            <td class="info1"><span style="font-family: Arial;">04/02/2017</span></td>
+            <td class="info1"><a onclick="window.open(this.href,'archive','resizable=yes,location=no,menubar=no,scrollbars=no,status=no,toolbar=no,fullscreen=no,dependent=no,status,width=300,height=200'); return false" href="https://s3-us-west-1.amazonaws.com/sgvac-media/en/audio/sermon/2017/english-sermon-20170319.mp3"><span style="font-size: medium;">Become Like Little Children</span><img src="images/play.png" align="right"></a></td>
+            <td class="info1">Matthew 18:1-4</td>
+            <td class="info1">Pastor Dave</td>
+            <td class="info1"></i></td>
+        </tr>
+        <tr>
+            <td class="info1"><span style="font-family: Arial;">03/26/2017</span></td>
+            <td class="info1"><a onclick="window.open(this.href,'archive','resizable=yes,location=no,menubar=no,scrollbars=no,status=no,toolbar=no,fullscreen=no,dependent=no,status,width=300,height=200'); return false" href="https://s3-us-west-1.amazonaws.com/sgvac-media/en/audio/sermon/2017/english-sermon-20170319.mp3"><span style="font-size: medium;">Steadfast Sovereign Help</span><img src="images/play.png" align="right"></a></td>
+            <td class="info1">Psalm 121</td>
+            <td class="info1">Rev. Ward Brandenstein</td>
+            <td class="info1"></i></td>
+        </tr>
+        <tr>
+            <td class="info1"><span style="font-family: Arial;">03/19/2017</span></td>
+            <td class="info1"><a onclick="window.open(this.href,'archive','resizable=yes,location=no,menubar=no,scrollbars=no,status=no,toolbar=no,fullscreen=no,dependent=no,status,width=300,height=200'); return false" href="https://s3-us-west-1.amazonaws.com/sgvac-media/en/audio/sermon/2017/english-sermon-20170319.mp3"><span style="font-size: medium;">You Will Be My Witnesses</span><img src="images/play.png" align="right"></a></td>
+            <td class="info1">Acts 1:4-8</td>
+            <td class="info1">Rev. Martin Chaaya</td>
+            <td class="info1"></i></td>
+        </tr>
+        <tr>
+            <td class="info1"><span style="font-family: Arial;">03/12/2017</span></td>
+            <td class="info1"><a onclick="window.open(this.href,'archive','resizable=yes,location=no,menubar=no,scrollbars=no,status=no,toolbar=no,fullscreen=no,dependent=no,status,width=300,height=200'); return false" href="https://s3-us-west-1.amazonaws.com/sgvac-media/en/audio/sermon/2017/english-sermon-20170319.mp3"><span style="font-size: medium;">Real People</span><img src="images/play.png" align="right"></a></td>
+            <td class="info1">Matthew 1:15-16</td>
+            <td class="info1">Pastor Dave</td>
+            <td class="info1"></i></td>
+        </tr>
+        <tr>
+            <td class="info1"><span style="font-family: Arial;">03/05/2017</span></td>
+            <td class="info1"><a onclick="window.open(this.href,'archive','resizable=yes,location=no,menubar=no,scrollbars=no,status=no,toolbar=no,fullscreen=no,dependent=no,status,width=300,height=200'); return false" href="https://s3-us-west-1.amazonaws.com/sgvac-media/en/audio/sermon/2017/english-sermon-20170319.mp3"><span style="font-size: medium;">Not An Easy Road</span><img src="images/play.png" align="right"></a></td>
+            <td class="info1">Exodus 5:22-23</td>
+            <td class="info1">Pastor Dave</td>
+            <td class="info1"></i></td>
+        </tr>
+										</table>
+							</div>
+						</div> <!-- .row -->
+					</div> <!-- .container -->
+				</div> <!-- section -->		
+			</main> <!-- .main-content -->
+			<footer class="site-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="widget">
+								<h3 class="widget-title">Address:</h3>
+								<ul class="address">
+									<a href="http://maps.google.com/maps?oe=UTF-8&sourceid=navclient&ie=UTF8&q=1027+South+First+Ave.,+Arcadia,+CA+91006&fb=1&split=1&gl=us&cid=0,0,9574756912074033751&ei=SHTmSYa2C4vCsQPUs8mtDA&iwloc=A&ll=34.128875,-118.028461&spn=0.006295,0.006295&source=embed">
+										<li>
+											<i class="fa fa-map-marker" ></i>
+										1027 South First Ave., Arcadia, CA 91006</li></a>
+									<li><i class="fa fa-phone"></i><a href="tel:1-626-445-6394"> (626)445-6394</a></li>
+									<li><i class="fa fa-envelope"></i> info@yourchurch.com</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="widget">
+								<!--<h3 class="widget-title">Topics from last meeting</h3>
+								<ul class="bullet">
+									<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+									<li><a href="#">Consectetur adipisicing elit quis nostrud</a></li>
+									<li><a href="#">Eiusmod tempor incididunt ut labore et dolore magna</a></li> 
+									<li><a href="#">Ut enim ad minim veniam cillum</a></li>
+									<li><a href="#">Exercitation ullamco laboris nisi ut aliquip</a></li> 
+									<li><a href="#">Duis aute irure dolor in reprehenderit in voluptate</a></li>
+								</ul>-->
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="widget">
+								<h3 class="widget-title">Contact form</h3>
+								<form action="#" class="contact-form">
+									<div class="row">
+										<div class="col-md-6"><input type="text" placeholder="Your name..."></div>
+										<div class="col-md-6"><input type="text" placeholder="Email..."></div>
+									</div>
+									
+									<textarea name="" placeholder="Your message..."></textarea>
+									<div class="text-right"><input type="submit" value="Send message"></div>
+									
+								</form>
+							</div>
+						</div>
+					</div> <!-- .row -->
+
+					<p class="colophon">Copyright 2017 San Gabriel Valley Alliance Church. All right reserved</p>
+				</div><!-- .container -->
+			</footer> <!-- .site-footer -->
+
+		</div>
+
+		<script>
+        function preselectYear() {
+            if(document.getElementById("MySpeakerSelect").value == "-      Speaker      -") {
+                document.getElementById("MySelect").value = "/" + new Date().getFullYear();
+            } else {
+                document.getElementById("MySelect").value = "All";
+            }
+        }
+
+		function searchTable() {
+			var input,input2, input3, filter, filter2, filter3 , recordFound, found, foundyear, foundSpeaker, table, tr, td, i, j;
+			input = document.getElementById("myInput");
+			input2 = document.getElementById("MySelect");
+			input3 = document.getElementById("MySpeakerSelect");
+			filter = input.value.toUpperCase();
+			filter2 = input2.options[input2.selectedIndex].value.toUpperCase();
+			filter3 = input3.options[input3.selectedIndex].value.toUpperCase();
+			recordFound=0;
+			
+			table = document.getElementById("myTable");
+			tr = table.getElementsByTagName("tr");
+			for (i = 0; i < tr.length; i++) {
+				td = tr[i].getElementsByTagName("td");
+
+				for (j = 0; j < td.length; j++) {
+					if (td[j].innerHTML.toUpperCase().indexOf(filter) > -1)  {
+						found = true;
+					}
+					if (td[0].innerHTML.toUpperCase().indexOf(filter2) > -1 || filter2=="ALL" )  {
+						foundyear = true;
+					}
+					if (td[3].innerHTML.toUpperCase().indexOf(filter3) > -1 || filter3==input3.options[0].value )  {
+						foundSpeaker = true;
+					}
+				}
+				if (found && foundyear && foundSpeaker) {
+					tr[i].style.display = "";
+					recordFound++;
+				} else {
+					tr[i].style.display = "none";
+				}
+				found = false;
+				foundyear = false;
+				foundSpeaker = false;
+			}
+			tr[0].style.display = "";
+			document.getElementById("myRecordFound").value="  Total Record: " + recordFound;
+		}
+
+		</script>		
+
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		<script>$(window).bind("load", function() {
+			var table, tr, td, i, strlist, sel, opt, idx;
+			var tmpAry = new Array();
+	
+			strlist="";
+			idx=0;
+			
+			// Populating the Speaker dropdown
+			table = document.getElementById("myTable");
+			sel = document.getElementById("MySpeakerSelect");
+			tr = table.getElementsByTagName("tr");
+
+			for (i = 1; i < tr.length; i++) {
+				td = tr[i].getElementsByTagName("td");
+				if (strlist.toUpperCase().indexOf(td[3].innerHTML.toUpperCase())<0){
+					tmpAry[idx]=td[3].innerHTML;
+					idx++;
+					strlist=strlist + "|" + td[3].innerHTML.toUpperCase();
+				}							
+			}
+			tmpAry.sort();
+			for ( i=0;i<tmpAry.length;i++) {
+				opt = document.createElement("option");
+				opt.text = opt.value = tmpAry[i];
+				sel.add(opt);
+			}
+			
+			// Populating the Yesr dropdown
+			var year=new Date().getFullYear();
+			var sel2 = document.getElementById("MySelect");
+			for ( i=year;i>2010;i--) {
+				opt = document.createElement("option");
+				opt.text =  i;
+				opt.value = "/" + i;
+				sel2.add(opt);
+			}
+			sel2.selectedIndex=1;
+			
+			searchTable();	
+			});
+		</script>
+		
+	</body>
+
+</html>
